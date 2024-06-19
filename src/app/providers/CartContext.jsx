@@ -6,7 +6,7 @@ export const useCart = () => {
   return useContext(CartProvider);
 };
 
-export const AddCartProviders = ({ children }) => {
+export const CartContext = ({ children }) => {
   const [product, setProduct] = useState([]);
 
   useEffect(() => {
