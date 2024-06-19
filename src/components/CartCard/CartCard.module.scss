@@ -1,0 +1,63 @@
+.cartCard {
+  padding: 18px 25px 15px 18px;
+  margin-top: 20px;
+  width: 633px;
+  height: 218px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__img {
+    width: 145px;
+    height: 135px;
+  }
+
+  &__name {
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  &__price {
+    margin-top: 12px;
+    color: #aaa;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  &__bottom {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__bottom span {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  &__btn {
+    margin-left: 15px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__counter {
+    font-size: 17px;
+    font-weight: 600;
+  }
+}

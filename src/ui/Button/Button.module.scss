@@ -1,0 +1,20 @@
+.button {
+  font-size: 17px;
+  font-weight: 600;
+
+  &_large {
+    padding: 22px 0;
+    width: 350px;
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  &_white {
+    color: #fff;
+  }
+
+  &_fill {
+    background: #101010;
+  }
+}
