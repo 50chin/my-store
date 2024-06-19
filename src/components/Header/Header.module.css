@@ -1,0 +1,15 @@
+.header {
+  padding: 15px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__right {
+  display: flex;
+  gap: 25px;
+}
+.header__right img {
+  width: 23px;
+  height: 23px;
+}/*# sourceMappingURL=Header.module.css.map */

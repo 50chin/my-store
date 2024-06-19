@@ -1,0 +1,14 @@
+.section {
+  padding-top: 28px;
+}
+.section__wrapper {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.section__title {
+  color: #838383;
+  font-size: 20px;
+  font-weight: 600;
+}/*# sourceMappingURL=Section.module.css.map */
